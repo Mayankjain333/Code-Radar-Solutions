@@ -5,7 +5,7 @@ int main(){
     char b[100];
     scanf("%s",a);
     scanf("%s",b);
-    char c[100] = 'a'+and+'b';
+    char c[200] = 'a'+and+'b';
     printf("%s",c);
     return 0;
 }
