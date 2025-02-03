@@ -6,6 +6,6 @@ int main(){
     scanf("%s",a);
     scanf("%s",b);
     char c[100] = 'a'+and+'b';
-    print("%s",c);
+    printf("%s",c);
     return 0;
 }
