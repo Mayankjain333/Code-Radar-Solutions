@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &b);
     
     // Consume the leftover newline character
-    // getchar(); 
+    getchar(); 
     
     // Input the operator
     scanf("%c", &op);
@@ -31,9 +31,9 @@ int main() {
         printf("%d", multiply);
     }
     else if (op == '/') {
-        if (b != 0) { // Check for division by zero
-            printf("%.0f", division);
-        } else {
+        printf("%.0f", division);
+    }
+    else {
             printf("error");
         }
     }
