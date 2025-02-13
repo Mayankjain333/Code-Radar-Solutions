@@ -20,7 +20,7 @@ int main(){
         printf("%d",multitply);
     }
     else if(op=='/'){
-        printf("%f",division);
+        printf("%.1f",division);
     }
     else{
         printf("error");
