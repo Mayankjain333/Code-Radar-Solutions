@@ -13,10 +13,11 @@ int main(){
     else if((chr >= 'a' && chr <= 'z') || (chr >= 'A' && chr <= 'Z')){
         printf("Consonant");
     }
-    // If it's not a letter, it is assumed to be a digit or special character
-    else if(chr>=0 && chr<=100){
+    // Check if the character is a digit
+    else if(chr >= '0' && chr <= '9'){
         printf("Digit");
     }
+    // If it's not a letter or digit, it's a special character
     else{
         printf("Special Character");
     }
