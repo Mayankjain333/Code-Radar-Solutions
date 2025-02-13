@@ -1,29 +1,45 @@
 #include<stdio.h>
 
-int main(){
-    int a , b;
+int main() {
+    int a, b;
     char op;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    scanf("%c",&op);
-    int add = a+b;
-    int subtract = a-b;
-    int multitply = a*b;
-    float division = float(a/b);
-    if(op=='+'){
-        printf("%d",add);
+
+    // Input two integers
+    scanf("%d", &a);
+    scanf("%d", &b);
+    
+    // Consume the leftover newline character
+    getchar(); 
+    
+    // Input the operator
+    scanf("%c", &op);
+
+    // Perform the respective operation
+    int add = a + b;
+    int subtract = a - b;
+    int multiply = a * b;
+    float division = (float)a / b; // Ensure division works as float for precision
+
+    // Print the result based on the operator
+    if (op == '+') {
+        printf("%d", add);
     }
-    else if(op=='-'){
-        printf("%d",subtract);
+    else if (op == '-') {
+        printf("%d", subtract);
     }
-    else if(op=='*'){
-        printf("%d",multitply);
+    else if (op == '*') {
+        printf("%d", multiply);
     }
-    else if(op=='/'){
-        printf("%.1f",division);
+    else if (op == '/') {
+        if (b != 0) { // Check for division by zero
+            printf("%.1f", division);
+        } else {
+            printf("Error: Division by zero");
+        }
     }
-    else{
-        printf("error");
+    else {
+        printf("Error: Invalid operator");
     }
+
     return 0;
 }
