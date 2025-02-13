@@ -2,14 +2,19 @@
 
 int main(){
     char chr;
-    scanf("%c",&chr);
-    if(chr = 'aeiouAEIOU'){
+    scanf("%c", &chr);
+    
+    // Check if the character is a vowel (lowercase or uppercase)
+    if(chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o' || chr == 'u' || 
+       chr == 'A' || chr == 'E' || chr == 'I' || chr == 'O' || chr == 'U'){
         printf("Vowel");
     }
-    else if(chr != 'aeiouAEIOU'){
+    // Check if the character is a letter but not a vowel (i.e., a consonant)
+    else if((chr >= 'a' && chr <= 'z') || (chr >= 'A' && chr <= 'Z')){
         printf("Consonant");
     }
-    else{
+    // If it's not a letter, it is assumed to be a digit or special character
+    else {
         printf("Digit");
     }
     return 0;
