@@ -31,11 +31,15 @@ int main() {
         printf("%d", multiply);
     }
     else if (op == '/') {
-        printf("%.0f", division);
-    }
-    else {
+        if (b != 0) { // Check for division by zero
+            printf("%.0f", division);
+        } else {
             printf("error");
         }
-    
+    }
+    else {
+        printf("Error: Invalid operator");
+    }
+
     return 0;
 }
