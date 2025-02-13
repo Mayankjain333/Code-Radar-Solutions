@@ -14,8 +14,11 @@ int main(){
         printf("Consonant");
     }
     // If it's not a letter, it is assumed to be a digit or special character
-    else {
+    else if(chr>=0 && chr<=100){
         printf("Digit");
+    }
+    else{
+        printf("Special Character");
     }
     return 0;
 }
