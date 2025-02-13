@@ -32,7 +32,7 @@ int main() {
     }
     else if (op == '/') {
         if (b != 0) { // Check for division by zero
-            printf("%.1f", division);
+            printf("%d", division);
         } else {
             printf("Error: Division by zero");
         }
