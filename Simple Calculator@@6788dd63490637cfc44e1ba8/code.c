@@ -36,10 +36,6 @@ int main() {
     else {
             printf("error");
         }
-    }
-    else {
-        printf("Error: Invalid operator");
-    }
-
+    
     return 0;
 }
