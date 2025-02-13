@@ -9,7 +9,7 @@ int main(){
     int add = a+b;
     int subtract = a-b;
     int multitply = a*b;
-    float division = a/b;
+    float division = float(a/b);
     if(op=='+'){
         printf("%d",add);
     }
