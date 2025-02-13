@@ -34,7 +34,7 @@ int main() {
         if (b != 0) { // Check for division by zero
             printf("%.0f", division);
         } else {
-            printf("Error: Division by zero");
+            printf("error");
         }
     }
     else {
