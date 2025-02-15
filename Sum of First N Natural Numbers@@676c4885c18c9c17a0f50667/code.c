@@ -7,9 +7,9 @@ int main(){
     int sum = 0;
     while(i<=N){
         
-        printf("%d",sum);
+        sum += i;
         i++;
     }
-    sum += i;
+    printf("%d",sum);
     return 0;
 }
