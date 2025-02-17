@@ -5,5 +5,5 @@ int main(){
     scanf("%d %d",&a,&b);
     int ans = a|b;
     printf("%d",ans);
-    
+    return 0;
 }
