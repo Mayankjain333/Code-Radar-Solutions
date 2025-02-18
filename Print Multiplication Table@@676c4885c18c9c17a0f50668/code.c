@@ -18,7 +18,7 @@ int main(){
     scanf("%d",&n);
     int mul = 1;
     int i = 1;
-    while(i<=n){
+    while(i<=10){
         printf("%d x %d = %d" , n , i , n*i);
         i++;
     }
