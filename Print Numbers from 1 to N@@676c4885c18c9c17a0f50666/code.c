@@ -20,9 +20,9 @@ int main(){
     int i = 1;
     while(i<=n){
         printf("%d",i);
-        i++
+        i++;
     }
-return 0;
+    return 0;
 }
 
 
