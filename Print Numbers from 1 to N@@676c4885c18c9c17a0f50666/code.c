@@ -1,13 +1,37 @@
+// #include<stdio.h>
+
+// int main(){
+//     int N;
+//     scanf("%d",&N);
+//     int i = 1;
+//     while(i<=N){
+//         printf("%d ", i);
+//         i++;
+//     }
+//     // printf("%d" , i);
+//     return 0;
+// }
+
 #include<stdio.h>
 
 int main(){
-    int N;
-    scanf("%d",&N);
-    int i = 1;
-    while(i<=N){
-        printf("%d ", i);
-        i++;
+    int n;
+    scanf("%d",&n);
+    i = 1;
+    while(i<=n){
+        printf("%d",n);
+        i++
     }
-    // printf("%d" , i);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
