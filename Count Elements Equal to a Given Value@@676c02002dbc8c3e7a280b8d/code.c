@@ -16,14 +16,8 @@ int main() {
     int mostFrequent = arr[0];
     for (int i = 0; i < n; i++) {
         if(arr[i]==k){
-                int maxFreq += 1;  // Start counting the current element
+                maxFreq += 1;  // Start counting the current element
             }
-        }
-
-        // Update most frequent element
-        if (count > maxFreq) {
-            maxFreq = count;
-            mostFrequent = arr[i];
         }
     }
 
