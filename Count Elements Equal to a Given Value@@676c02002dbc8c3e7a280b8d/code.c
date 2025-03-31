@@ -13,7 +13,6 @@ int main() {
     scanf("%d",&k);
 
     int maxFreq = 0;
-    int mostFrequent = arr[0];
     for (int i = 0; i < n; i++) {
         if(arr[i]==k){
                 maxFreq += 1;  // Start counting the current element
