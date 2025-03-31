@@ -18,9 +18,9 @@ int main() {
                 maxFreq += 1;  // Start counting the current element
             }
         }
+
+        printf("%d", maxFreq);
+        return 0;
     }
 
-    printf("%d", maxFreq);
 
-    return 0;
-}
