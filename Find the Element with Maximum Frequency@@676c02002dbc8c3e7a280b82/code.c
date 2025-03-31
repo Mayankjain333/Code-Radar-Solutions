@@ -5,16 +5,12 @@ int main() {
     scanf("%d", &n);
 
     int arr[n];
-
-    // Read input array
-    for (int i = 0; i < n; i++) {  // ✅ Fixed loop condition
+    for (int i = 0; i < n; i++) {  
         scanf("%d", &arr[i]);
     }
 
     int maxFreq = 0;
     int mostFrequent = arr[0];
-
-    // Count frequency of each element
     for (int i = 0; i < n; i++) {
         int count = 1;  // Start counting the current element
         for (int j = i + 1; j < n; j++) {
@@ -30,8 +26,7 @@ int main() {
         }
     }
 
-    // Print the most frequent element and its frequency
-    printf("%d", mostFrequent, maxFreq);
+    printf("%d", mostFrequent);
 
     return 0;
 }
