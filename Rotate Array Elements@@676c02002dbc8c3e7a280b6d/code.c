@@ -12,10 +12,14 @@ void reverse(int arr[],int a,int b){
     }
 }
 int main(){
-    int arr[7] = {1,2,3,4,5,6,7};
+    int arr[n];
     int n;
-    n = 7;
-    int k=3;
+    int k=3
+    scanf("%d",&n);
+    for(i=0;i<=n;i++){
+        scanf("%d",&arr[i]);
+    }
+    scanf("%d",&k);
     k = k%n;
     
     reverse(arr,0,n-1);
