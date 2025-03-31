@@ -13,7 +13,7 @@ void reverse(int arr[],int a,int b){
 }
 int main(){
     int n;
-    int arr[n];
+    int arr[];
     
     int k;
     scanf("%d",&n);
