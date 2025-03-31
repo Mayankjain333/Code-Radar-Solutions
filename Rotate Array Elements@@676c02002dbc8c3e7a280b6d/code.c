@@ -19,18 +19,10 @@ int main(){
     k = k%n;
     
     reverse(arr,0,n-1);
-    for(int i=0;i<=6;i++){
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
     reverse(arr,0,k-1);
-    for(int i=0;i<=6;i++){
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
     reverse(arr,k,n-1);
     for(int i=0;i<=6;i++){
-        printf("%d ",arr[i]);
+        printf("%d\n",arr[i]);
     }
     printf("\n");
     return 0;
