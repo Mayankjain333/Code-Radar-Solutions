@@ -15,10 +15,8 @@ int main() {
     int maxFreq = 0;
     int mostFrequent = arr[0];
     for (int i = 0; i < n; i++) {
-        int count = 1;  // Start counting the current element
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] == arr[j]) {
-                count++; // Increase frequency count
+        if(arr[i]==k){
+                int maxFreq += 1;  // Start counting the current element
             }
         }
 
