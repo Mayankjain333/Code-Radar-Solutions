@@ -31,7 +31,7 @@ int main() {
     }
 
     // Print the most frequent element and its frequency
-    printf("%d)", mostFrequent, maxFreq);
+    printf("%d", mostFrequent, maxFreq);
 
     return 0;
 }
