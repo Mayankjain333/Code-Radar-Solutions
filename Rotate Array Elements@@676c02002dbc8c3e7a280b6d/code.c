@@ -15,9 +15,9 @@ int main(){
     int n;
     int arr[n];
     
-    int k=3;
+    int k;
     scanf("%d",&n);
-    for(i=0;i<=n;i++){
+    for(int i=0;i<=n;i++){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
