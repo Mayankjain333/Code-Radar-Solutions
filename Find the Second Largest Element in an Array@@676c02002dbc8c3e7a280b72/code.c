@@ -16,7 +16,7 @@ int main(){
     }
     int secmax = 0;
     for(int i=0;i<n;i++){
-        if(arr[i] != max || secmax<arr[i]){
+        if(arr[i] != max && secmax<arr[i]){
             secmax = arr[i];
         }
        
