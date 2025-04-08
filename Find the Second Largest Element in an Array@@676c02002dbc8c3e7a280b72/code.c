@@ -19,11 +19,9 @@ int main(){
         if(arr[i] != max && secmax<arr[i]){
             secmax = arr[i];
         }
-        else{
-            printf("-1");
-        }
+       
     }
     printf("%d",secmax);
-
+    
     return 0;
 }
